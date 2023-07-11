@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "my-portfolio-b0d82"
+  },
+  "targets": {
+    "safir-portfolio-6ee6b": {
+      "hosting": {
+        "portfolio-app": [
+          "safir-portfolio-6ee6b"
+        ]
+      }
+    }
+  }
+}

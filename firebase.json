@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "safir-portfolio-6ee6b",
+    "public": "dist/portfolio-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "../index.html"
+      }
+    ]
+  }
+}

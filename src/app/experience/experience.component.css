@@ -1,0 +1,60 @@
+.timeline {
+  position: relative;
+}
+.timeline-item::before {
+  border-left: 10px solid #d3c9c9 !important;
+}
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+
+.timeline-marker {
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d3c9c9;
+  border: 2px solid #000; /* Adjust the border color and size as needed */
+  z-index: 2;
+}
+
+.timeline-content {
+  margin-left: 30px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  bottom: 0;
+  width: 2px;
+  background-color: #000; /* Adjust the line color as needed */
+  z-index: 1;
+}
+
+.timeline-item:last-child .timeline-marker {
+  /* display: none; */
+}
+
+.experience-title,
+.experience-role,
+.experience-duration {
+  margin: 0;
+  color: #d3c9c9;
+}
+
+.experience-highlights li {
+  margin-bottom: 5px;
+  color: #d3c9c9;
+}
+.timeline-content a {
+  text-decoration: none;
+  color: rgb(231, 22, 88);
+}
+.timeline hr {
+  color: white;
+  line-height: 2;
+}

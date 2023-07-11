@@ -1,0 +1,13 @@
+.navbar {
+  background: linear-gradient(to right, #0f0438, #090c12);
+  color: white;
+  font-size:13px
+}
+.navbar .btn{
+  /* background: linear-gradient(to right, #0f0438, #090c12);
+  color: white; */
+  font-size:13px
+}
+.navbar  .nav-link {
+  cursor: pointer;
+}

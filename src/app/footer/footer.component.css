@@ -1,0 +1,31 @@
+.footer {
+  /* background-color: #333; */
+  background: radial-gradient(circle, #1a0859, #090c12);
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-subscribe-form {
+  margin-top: 10px;
+
+}
+.footer-subscribe-form input{
+  border-radius: 3px
+}
+.footer-subscribe-form .btn{
+  border-radius: 0px;
+  font-size: 12px;
+}

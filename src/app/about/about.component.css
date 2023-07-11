@@ -1,0 +1,30 @@
+.card-bg-gradient {
+  background: radial-gradient(circle, #1a0859, #090c12);
+  /* background: linear-gradient(to right, #0f0438, #090c12); */
+  color: white;
+  border-radius: 20px;
+  padding:30px;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  height: 600px; /* Adjust the height as needed */
+}
+
+.animated-image {
+  position: absolute;
+  top: 0;
+  animation: moveUpDown 4s infinite alternate ease-in-out;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the distance of the animation */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
